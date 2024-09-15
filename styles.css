@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.type-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.type-card {
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+}
+
+.type-card:hover {
+    transform: translateY(-10px);
+}
+
+.type-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#info-section {
+    padding: 20px;
+}
+
+#info-section.hidden {
+    display: none;
+}
+
+#volver-btn {
+    background-color: #ffcc00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pokemon-item {
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pokemon-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url('URL_DE_TU_IMAGEN');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url('https://www.lared.cl/wp-content/uploads/2016/02/portada-pokemon.jpg'); /* URL temporal para probar */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* Estilo para las cartas de los Pokémon */
+.pokemon-card {
+    background-color: #1e90ff; /* Azul Pokémon */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+    color: #fff; /* Texto blanco */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves para efectos */
+}
+
+.pokemon-card:hover {
+    transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada al pasar el ratón */
+}
+
+/* Estilo para las imágenes dentro de las cartas */
+.pokemon-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los títulos de las cartas */
+.pokemon-card h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+/* Estilo para las cartas de los Pokémon */
+.pokemon-card {
+    background-color: #1e90ff; /* Azul Pokémon */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+    color: #fff; /* Texto blanco */
+    text-align: center;
+    position: relative; /* Necesario para el efecto de resplandor */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves para efectos */
+}
+/* Estilo para las cartas de los Pokémon */
+.pokemon-card {
+    background-color: #1e90ff; /* Azul Pokémon */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+    color: #fff; /* Texto blanco */
+    text-align: center;
+    position: relative; /* Necesario para el efecto de resplandor */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves para efectos */
+}

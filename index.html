@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex Interactiva</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Encabezado con descripción -->
+    <header>
+        <h1>Pokédex Interactiva</h1>
+        <p>Bienvenidos a la Pokédex interactiva. Aquí podrás explorar diferentes tipos de Pokémon, conocer sus características y aprender más sobre sus habilidades y tipos elementales. ¡Haz clic en los tipos para descubrir más!</p>
+    </header>
+
+    <!-- Sección principal de tipos de Pokémon -->
+    <section id="main-section">
+        <h2>Selecciona un Tipo de Pokémon</h2>
+        <div class="type-grid">
+            <div class="type-card" data-type="fire">
+                <img src="https://img.pokemondb.net/artwork/charizard.jpg" alt="Fuego">
+                <h3>Fuego</h3>
+            </div>
+            <div class="type-card" data-type="water">
+                <img src="https://img.pokemondb.net/artwork/blastoise.jpg" alt="Agua">
+                <h3>Agua</h3>
+            </div>
+            <div class="type-card" data-type="grass">
+                <img src="https://img.pokemondb.net/artwork/venusaur.jpg" alt="Planta">
+                <h3>Planta</h3>
+            </div>
+            <div class="type-card" data-type="electric">
+                <img src="https://img.pokemondb.net/artwork/pikachu.jpg" alt="Eléctrico">
+                <h3>Eléctrico</h3>
+            </div>
+            <div class="type-card" data-type="ice">
+                <img src="https://img.pokemondb.net/artwork/glaceon.jpg" alt="Hielo">
+                <h3>Hielo</h3>
+            </div>
+            <div class="type-card" data-type="fairy">
+                <img src="https://img.pokemondb.net/artwork/jigglypuff.jpg" alt="Hada">
+                <h3>Hada</h3>
+            </div>
+            <div class="type-card" data-type="poison">
+                <img src="https://img.pokemondb.net/artwork/gengar.jpg" alt="Veneno">
+                <h3>Veneno</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de detalles de Pokémon -->
+    <section id="info-section" class="hidden">
+        <button id="volver-btn">Volver</button>
+        <div id="info-content"></div>
+    </section>
+
+    <!-- Animaciones y estilo -->
+    <footer>
+        <p>Creado por CamiloR10 - Proyecto de Pokedex Interactiva</p>
+    </footer>
+    <script src="script.js"></script>
+    <!-- Ejemplo de botón de volver -->
+</body>
+</html>
